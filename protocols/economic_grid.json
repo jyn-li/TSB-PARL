@@ -1,0 +1,21 @@
+{
+  "design": "exploratory_single_fixed_demand_path",
+  "rho_values": [0.25, 0.4, 0.55, 0.7, 0.85, 1.0],
+  "eta_values": [0.0, 1.0, 1.25, 1.5, 1.75, 2.0],
+  "methods": ["full", "no_substitution"],
+  "training_seeds": [20269601, 20269602, 20269603],
+  "evaluation_repetitions": 4,
+  "grid_cells": 36,
+  "method_seed_cells": 216,
+  "paired_seed_summaries": 108,
+  "evaluation_episodes": 864,
+  "training_episodes": 80,
+  "training_particles": 96,
+  "evaluation_particles": 192,
+  "demand_path_file": "inputs/data/C6_HIGHER_ROUTE_VALUE_path1_demand.csv",
+  "rho_definition": "Common total non-exit substitution probability; conditional non-exit destination weights retain the base pattern.",
+  "eta_definition": "Price_i = mean(base_price) + eta * (base_price_i - mean(base_price)); all other unit costs retain their base values.",
+  "history": "Expanded after inspecting earlier 3x3 and 4x5 maps; all 36 combinations fixed before this follow-up run. It is not a new held-out validation.",
+  "training_reuse": "One complete model per eta, method and seed is shared across six rho evaluations; each deployment clones online and target weights plus the last 1500 training transitions.",
+  "release_scope": "Exact complete aggregated and paired-seed CSVs; historical training checkpoints, period-level archives and the historical grid reproduction runner are not bundled."
+}
