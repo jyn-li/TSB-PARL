@@ -1,0 +1,201 @@
+{
+  "random_seed": 20269601,
+  "calendar": {
+    "num_years": 5,
+    "days_per_year": 60
+  },
+  "products": [
+    {
+      "id": "P1",
+      "name": "Product 1",
+      "price": 10.0,
+      "holding_cost": 1.0,
+      "shortage_cost": 4.0,
+      "yearly_regimes": [
+        {
+          "year": 1,
+          "target_mean": 150.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 3
+          }
+        },
+        {
+          "year": 2,
+          "target_mean": 175.0,
+          "distribution": "poisson",
+          "distribution_parameters": {}
+        },
+        {
+          "year": 3,
+          "target_mean": 145.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 12
+          }
+        },
+        {
+          "year": 4,
+          "target_mean": 185.0,
+          "distribution": "negative_binomial",
+          "distribution_parameters": {
+            "dispersion": 1200
+          }
+        },
+        {
+          "year": 5,
+          "target_mean": 150.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Product 2",
+      "price": 16.0,
+      "holding_cost": 1.4,
+      "shortage_cost": 10.0,
+      "yearly_regimes": [
+        {
+          "year": 1,
+          "target_mean": 150.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 3
+          }
+        },
+        {
+          "year": 2,
+          "target_mean": 135.0,
+          "distribution": "poisson",
+          "distribution_parameters": {}
+        },
+        {
+          "year": 3,
+          "target_mean": 175.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 12
+          }
+        },
+        {
+          "year": 4,
+          "target_mean": 130.0,
+          "distribution": "negative_binomial",
+          "distribution_parameters": {
+            "dispersion": 1200
+          }
+        },
+        {
+          "year": 5,
+          "target_mean": 170.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Product 3",
+      "price": 9.0,
+      "holding_cost": 1.0,
+      "shortage_cost": 6.0,
+      "yearly_regimes": [
+        {
+          "year": 1,
+          "target_mean": 150.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 3
+          }
+        },
+        {
+          "year": 2,
+          "target_mean": 150.0,
+          "distribution": "poisson",
+          "distribution_parameters": {}
+        },
+        {
+          "year": 3,
+          "target_mean": 135.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 12
+          }
+        },
+        {
+          "year": 4,
+          "target_mean": 145.0,
+          "distribution": "negative_binomial",
+          "distribution_parameters": {
+            "dispersion": 1200
+          }
+        },
+        {
+          "year": 5,
+          "target_mean": 135.0,
+          "distribution": "discrete_uniform",
+          "distribution_parameters": {
+            "half_width": 6
+          }
+        }
+      ]
+    }
+  ],
+  "substitution": {
+    "outside_option": "EXIT",
+    "matrix": {
+      "P1": {
+        "P1": 0.0,
+        "P2": 0.84,
+        "P3": 0.04,
+        "EXIT": 0.12
+      },
+      "P2": {
+        "P1": 0.33,
+        "P2": 0.0,
+        "P3": 0.33,
+        "EXIT": 0.34
+      },
+      "P3": {
+        "P1": 0.15,
+        "P2": 0.55,
+        "P3": 0.0,
+        "EXIT": 0.3
+      }
+    }
+  },
+  "simulation": {
+    "shared_capacity": 490,
+    "price": 5,
+    "holding_cost": 1,
+    "shortage_cost": 3,
+    "replications": 100,
+    "initial_inventory": null
+  },
+  "training_randomization": {
+    "demand_mean_log_sd": 0.12,
+    "distribution_mutation_probability": 0.25,
+    "substitution_concentration": 35.0,
+    "substitution_dirichlet_floor": 0.35
+  },
+  "evaluation": {
+    "common_substitution_trials_per_source_period": 1024
+  },
+  "output": {
+    "directory": "outputs",
+    "demand_long_file": "inputs/data/C6_HIGHER_ROUTE_VALUE_path1_demand.csv",
+    "substitution_wide_file": "inputs/data/C6_HIGHER_ROUTE_VALUE_path1_substitution.csv"
+  },
+  "development_metadata": {
+    "scenario": "C6_HIGHER_ROUTE_VALUE",
+    "path_id": 1,
+    "path_seed": 20269512,
+    "training_seed": 20269601
+  }
+}
