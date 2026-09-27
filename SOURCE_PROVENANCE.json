@@ -1,0 +1,219 @@
+[
+  {
+    "destination": "algorithm/src/tsb_parl/__init__.py",
+    "original_sha256": "35be16f003b07cdb49bcfada3026b28192c2dc8290c0ce1ac76da888d6d5c43b",
+    "public_sha256": "35be16f003b07cdb49bcfada3026b28192c2dc8290c0ce1ac76da888d6d5c43b",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/src/tsb_parl/allocator.py",
+    "original_sha256": "04015dce32e29d29f87277dcf40142f4230234895423de0e8923b2c2a9d67df0",
+    "public_sha256": "04015dce32e29d29f87277dcf40142f4230234895423de0e8923b2c2a9d67df0",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/src/tsb_parl/belief.py",
+    "original_sha256": "0a72390051a8fbaace6462dc08909e60a9b3a2211843cbe066503d5ecf6e99f8",
+    "public_sha256": "0a72390051a8fbaace6462dc08909e60a9b3a2211843cbe066503d5ecf6e99f8",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/src/tsb_parl/demand_only_belief.py",
+    "original_sha256": "6c224358aa6ad933decd8a2d0c6f429d7b51cc057d94e038e2d2c1721bd2395e",
+    "public_sha256": "6c224358aa6ad933decd8a2d0c6f429d7b51cc057d94e038e2d2c1721bd2395e",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/src/tsb_parl/environment.py",
+    "original_sha256": "92bb2a10f6a50b5a86696887f312f35721c2aea37cabfddd3d15f7917ab67d3f",
+    "public_sha256": "92bb2a10f6a50b5a86696887f312f35721c2aea37cabfddd3d15f7917ab67d3f",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/src/tsb_parl/experiment_modes.py",
+    "original_sha256": "fb17889918b7e32bfb93a3da90e7e38ac1bf122c2394174c106a2b3c0f158017",
+    "public_sha256": "fb17889918b7e32bfb93a3da90e7e38ac1bf122c2394174c106a2b3c0f158017",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/src/tsb_parl/rl_agent.py",
+    "original_sha256": "a10776b9d8c8db546b9315f00a1d053059d350720bbccd282dd830201ae62f5b",
+    "public_sha256": "a10776b9d8c8db546b9315f00a1d053059d350720bbccd282dd830201ae62f5b",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/src/tsb_parl/utils.py",
+    "original_sha256": "686be74e9d5133cc595e22081054e2cc0406a7a392bee79298b691af49ce3045",
+    "public_sha256": "686be74e9d5133cc595e22081054e2cc0406a7a392bee79298b691af49ce3045",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/experiments/common/execute_method.py",
+    "original_sha256": "5fcbf3978850baa99c092e515c34db860715eaaebdf7201b9973351278be1508",
+    "public_sha256": "5fcbf3978850baa99c092e515c34db860715eaaebdf7201b9973351278be1508",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/experiments/common/execute_nosub.py",
+    "original_sha256": "a2d8633a17e8c75eaca4afd439154b4f2a200e4ff9e99d311d0558fcdeaec195",
+    "public_sha256": "a2d8633a17e8c75eaca4afd439154b4f2a200e4ff9e99d311d0558fcdeaec195",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "algorithm/tests/run_tests.py",
+    "original_sha256": "3923ae611ea2f77038cd2730af037d0bae9fd4ae11cc420df0c8bf6a8b833cb3",
+    "public_sha256": "3923ae611ea2f77038cd2730af037d0bae9fd4ae11cc420df0c8bf6a8b833cb3",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "algorithm/tests/test_environment.py",
+    "original_sha256": "095dbcc8cdadb551c077eaa54f07efe8db068156cf5ad04476fcf1b04273353e",
+    "public_sha256": "095dbcc8cdadb551c077eaa54f07efe8db068156cf5ad04476fcf1b04273353e",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "experiments/operating/design_suite.py",
+    "original_sha256": "7239ab4100eb7b81d97a0b36c893cd2c27556717cd1b5609c3b9c2bb54a383e5",
+    "public_sha256": "4b43b0bd3c8be5e95d61f2c89d98f07b0ba3f36aa7952e92b07b6b396e5c5f47",
+    "status": "portable_path_or_metadata_adapter",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "experiments/operating/run_suite.py",
+    "original_sha256": "7ec0afe28e33ae905b8cfe18f31c56c546ccd6d4852e399c07bc20602df7af45",
+    "public_sha256": "bb4383e54bed4afa809073aa5a44800bbfb60a79128c306ef1283f9ae4e8a880",
+    "status": "portable_path_or_metadata_adapter",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "experiments/operating/literature_baselines.py",
+    "original_sha256": "903673a561361ed95841df98b8b74840fe03044b1cb739af0bcd6988952374f8",
+    "public_sha256": "4845a67acda626039f509755dc3277b46136fed5e87d848c1e9d98aed188c5b3",
+    "status": "portable_path_or_metadata_adapter",
+    "matches_latest_numerical_lock": true
+  },
+  {
+    "destination": "experiments/operating/analyze_total_table.py",
+    "original_sha256": "3df49c9dcbbfc017657bdaba84cbfd3d1e22b9ee3f2fb4bad1db599b91029010",
+    "public_sha256": "481b0a8fb0302d3acbf6e4d377a3a2f137f7f60d82bf88bfcab67c732bc2e4f8",
+    "status": "portable_path_or_metadata_adapter",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "inputs/configs/C6_HIGHER_ROUTE_VALUE_path1_train20269601.json",
+    "original_sha256": "c0e378ed837bf76a7a13257dff89ce51f517fa362905fd13b4a7e7985ca557b3",
+    "public_sha256": "f0689158a9abc28dbaa2692909496c90d55eab94f4e9826a59ef3bd2c22aac43",
+    "status": "portable_path_or_metadata_adapter",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "inputs/data/C6_HIGHER_ROUTE_VALUE_path1_demand.csv",
+    "original_sha256": "753a6404fff25c363e85497654f61bc6712f8322b3b0f29b347940663fcdf0fe",
+    "public_sha256": "753a6404fff25c363e85497654f61bc6712f8322b3b0f29b347940663fcdf0fe",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "inputs/data/C6_HIGHER_ROUTE_VALUE_path1_substitution.csv",
+    "original_sha256": "17d5f9d00065ecc26348466ee7aafc6ff61e0fc5427e512dbafa83a87d908830",
+    "public_sha256": "17d5f9d00065ecc26348466ee7aafc6ff61e0fc5427e512dbafa83a87d908830",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/operating_conditions/total_table.csv",
+    "original_sha256": "4b9883f142008180db76c8d648b78c7d27555bfb47fa6a8c09947dd4cd1c5189",
+    "public_sha256": "4b9883f142008180db76c8d648b78c7d27555bfb47fa6a8c09947dd4cd1c5189",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/operating_conditions/all_policy_means.csv",
+    "original_sha256": "ce047984d2a9131c6747bf00056cb0b617d3801649c92e78ec7bafdda46bbd61",
+    "public_sha256": "ce047984d2a9131c6747bf00056cb0b617d3801649c92e78ec7bafdda46bbd61",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/operating_conditions/paired_intervals.csv",
+    "original_sha256": "79558017e4b8bace27700fd9da3a540af0409415b235be99821f2fc45b355b6f",
+    "public_sha256": "79558017e4b8bace27700fd9da3a540af0409415b235be99821f2fc45b355b6f",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/operating_conditions/seed_level_comparisons.csv",
+    "original_sha256": "b2c0dad738ac333f8eeb0fe3f68d904871b76dc343629ba2e94b227dfb591015",
+    "public_sha256": "b2c0dad738ac333f8eeb0fe3f68d904871b76dc343629ba2e94b227dfb591015",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/inventory_diagnostics/product_mean_and_range.csv",
+    "original_sha256": "c79de4b552d4fd026e9fb19479c68f08b48b8b1a0b0a56bbd5bc384e6dfbc0d1",
+    "public_sha256": "c79de4b552d4fd026e9fb19479c68f08b48b8b1a0b0a56bbd5bc384e6dfbc0d1",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/inventory_diagnostics/product_path_seed_metrics.csv",
+    "original_sha256": "d9bef706b0519849e23eb7c11b4fb6c42b65dea32a40f19c64010eb339215e92",
+    "public_sha256": "d9bef706b0519849e23eb7c11b4fb6c42b65dea32a40f19c64010eb339215e92",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/inventory_diagnostics/method_path_seed_metrics.csv",
+    "original_sha256": "a80a4d92f9a8b575e16a7e0f1fcc7c757a6ac8a272c2f50da7fade4894bf2fd7",
+    "public_sha256": "a80a4d92f9a8b575e16a7e0f1fcc7c757a6ac8a272c2f50da7fade4894bf2fd7",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/inventory_diagnostics/paired_path_seed_decomposition.csv",
+    "original_sha256": "f0387a7127592bf28383c646c58ea1d1cc062cd88ad168f19ace3c6eb313d268",
+    "public_sha256": "f0387a7127592bf28383c646c58ea1d1cc062cd88ad168f19ace3c6eb313d268",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/inventory_diagnostics/information_action_cells.csv",
+    "original_sha256": "f607e85a40f3ca7f8a61f4eedf69628f9bab575cb5f7d1c913418cfa091480ed",
+    "public_sha256": "f607e85a40f3ca7f8a61f4eedf69628f9bab575cb5f7d1c913418cfa091480ed",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/inventory_diagnostics/boundary_substitution_transitions.csv",
+    "original_sha256": "cbf5d2616edd95083fd80df9c4ea7993e906f742964824c58f9ad4445d1f958d",
+    "public_sha256": "cbf5d2616edd95083fd80df9c4ea7993e906f742964824c58f9ad4445d1f958d",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/economic_mechanism/grid36_cost_benefit.csv",
+    "original_sha256": "b9eae89e835528b20ae791a91d5f3398ed9df029773c450d64a7b332d532a586",
+    "public_sha256": "b9eae89e835528b20ae791a91d5f3398ed9df029773c450d64a7b332d532a586",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  },
+  {
+    "destination": "results/economic_mechanism/grid36_cost_benefit_seed_details.csv",
+    "original_sha256": "e70a7785609fe7e1f86c976bd8d7fffd4e9143c4c79497619e4afb8630fe6c6a",
+    "public_sha256": "e70a7785609fe7e1f86c976bd8d7fffd4e9143c4c79497619e4afb8630fe6c6a",
+    "status": "verbatim",
+    "matches_latest_numerical_lock": null
+  }
+]

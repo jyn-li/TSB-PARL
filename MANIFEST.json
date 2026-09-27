@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "scope": "synthetic_public_code_and_compact_results",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 65,
+      "sha256": "de445e242842bd53f217ab409859cae22cc08c999e8e2bca5609802e33e549ac"
+    },
+    {
+      "path": "algorithm/experiments/common/execute_method.py",
+      "bytes": 43121,
+      "sha256": "5fcbf3978850baa99c092e515c34db860715eaaebdf7201b9973351278be1508"
+    },
+    {
+      "path": "algorithm/experiments/common/execute_nosub.py",
+      "bytes": 2808,
+      "sha256": "a2d8633a17e8c75eaca4afd439154b4f2a200e4ff9e99d311d0558fcdeaec195"
+    },
+    {
+      "path": "algorithm/project_paths.py",
+      "bytes": 484,
+      "sha256": "1f71557e5ffb1eb7c468e3b6ac128a1c047e6ebdbd624eb82fa68044ec3eeb83"
+    },
+    {
+      "path": "algorithm/src/tsb_parl/__init__.py",
+      "bytes": 47,
+      "sha256": "35be16f003b07cdb49bcfada3026b28192c2dc8290c0ce1ac76da888d6d5c43b"
+    },
+    {
+      "path": "algorithm/src/tsb_parl/allocator.py",
+      "bytes": 23108,
+      "sha256": "04015dce32e29d29f87277dcf40142f4230234895423de0e8923b2c2a9d67df0"
+    },
+    {
+      "path": "algorithm/src/tsb_parl/belief.py",
+      "bytes": 18926,
+      "sha256": "0a72390051a8fbaace6462dc08909e60a9b3a2211843cbe066503d5ecf6e99f8"
+    },
+    {
+      "path": "algorithm/src/tsb_parl/demand_only_belief.py",
+      "bytes": 1879,
+      "sha256": "6c224358aa6ad933decd8a2d0c6f429d7b51cc057d94e038e2d2c1721bd2395e"
+    },
+    {
+      "path": "algorithm/src/tsb_parl/environment.py",
+      "bytes": 16676,
+      "sha256": "92bb2a10f6a50b5a86696887f312f35721c2aea37cabfddd3d15f7917ab67d3f"
+    },
+    {
+      "path": "algorithm/src/tsb_parl/experiment_modes.py",
+      "bytes": 5027,
+      "sha256": "fb17889918b7e32bfb93a3da90e7e38ac1bf122c2394174c106a2b3c0f158017"
+    },
+    {
+      "path": "algorithm/src/tsb_parl/rl_agent.py",
+      "bytes": 11870,
+      "sha256": "a10776b9d8c8db546b9315f00a1d053059d350720bbccd282dd830201ae62f5b"
+    },
+    {
+      "path": "algorithm/src/tsb_parl/utils.py",
+      "bytes": 2351,
+      "sha256": "686be74e9d5133cc595e22081054e2cc0406a7a392bee79298b691af49ce3045"
+    },
+    {
+      "path": "algorithm/tests/run_tests.py",
+      "bytes": 702,
+      "sha256": "3923ae611ea2f77038cd2730af037d0bae9fd4ae11cc420df0c8bf6a8b833cb3"
+    },
+    {
+      "path": "algorithm/tests/test_environment.py",
+      "bytes": 5620,
+      "sha256": "095dbcc8cdadb551c077eaa54f07efe8db068156cf5ad04476fcf1b04273353e"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 4225,
+      "sha256": "bf812897f444164973fe6c4a163f6ba91852c68842f8583a565ebd9742b68af8"
+    },
+    {
+      "path": "experiments/operating/analyze_total_table.py",
+      "bytes": 18968,
+      "sha256": "481b0a8fb0302d3acbf6e4d377a3a2f137f7f60d82bf88bfcab67c732bc2e4f8"
+    },
+    {
+      "path": "experiments/operating/design_suite.py",
+      "bytes": 9407,
+      "sha256": "4b43b0bd3c8be5e95d61f2c89d98f07b0ba3f36aa7952e92b07b6b396e5c5f47"
+    },
+    {
+      "path": "experiments/operating/literature_baselines.py",
+      "bytes": 32188,
+      "sha256": "4845a67acda626039f509755dc3277b46136fed5e87d848c1e9d98aed188c5b3"
+    },
+    {
+      "path": "experiments/operating/run_suite.py",
+      "bytes": 13451,
+      "sha256": "bb4383e54bed4afa809073aa5a44800bbfb60a79128c306ef1283f9ae4e8a880"
+    },
+    {
+      "path": "inputs/configs/C6_HIGHER_ROUTE_VALUE_path1_train20269601.json",
+      "bytes": 4864,
+      "sha256": "f0689158a9abc28dbaa2692909496c90d55eab94f4e9826a59ef3bd2c22aac43"
+    },
+    {
+      "path": "inputs/data/C6_HIGHER_ROUTE_VALUE_path1_demand.csv",
+      "bytes": 42289,
+      "sha256": "753a6404fff25c363e85497654f61bc6712f8322b3b0f29b347940663fcdf0fe"
+    },
+    {
+      "path": "inputs/data/C6_HIGHER_ROUTE_VALUE_path1_substitution.csv",
+      "bytes": 86,
+      "sha256": "17d5f9d00065ecc26348466ee7aafc6ff61e0fc5427e512dbafa83a87d908830"
+    },
+    {
+      "path": "inputs/generated_input_hashes.json",
+      "bytes": 18508,
+      "sha256": "7352629a9c671638c110a35d7f9e5ad019a69c80414b1045338d8390b69dc588"
+    },
+    {
+      "path": "protocols/economic_grid.json",
+      "bytes": 1369,
+      "sha256": "b6c43610d1db2bfde87c741288b1483cb110a6225cbca479d8e211ab25b7847a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9097,
+      "sha256": "4cc56c2e78fc843eb62181239760fdde3857036875e251467ca3845c9bda5690"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 4253,
+      "sha256": "37472ea751cf3edac14727ea363a2077543270b2f43a79978fa92f5b582e1f50"
+    },
+    {
+      "path": "requirements-ppo.txt",
+      "bytes": 103,
+      "sha256": "5eefa191ae960d8bb5eb705b3ee5b8f69865594108153113ee83e79ac7c0cc44"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 76,
+      "sha256": "f890259676acec4663d05855514a1eb8741fa82df1ff0b436f4b1923edec6a6d"
+    },
+    {
+      "path": "results/economic_mechanism/grid36_cost_benefit.csv",
+      "bytes": 16788,
+      "sha256": "b9eae89e835528b20ae791a91d5f3398ed9df029773c450d64a7b332d532a586"
+    },
+    {
+      "path": "results/economic_mechanism/grid36_cost_benefit_seed_details.csv",
+      "bytes": 25167,
+      "sha256": "e70a7785609fe7e1f86c976bd8d7fffd4e9143c4c79497619e4afb8630fe6c6a"
+    },
+    {
+      "path": "results/inventory_diagnostics/boundary_substitution_transitions.csv",
+      "bytes": 38203,
+      "sha256": "cbf5d2616edd95083fd80df9c4ea7993e906f742964824c58f9ad4445d1f958d"
+    },
+    {
+      "path": "results/inventory_diagnostics/information_action_cells.csv",
+      "bytes": 10390,
+      "sha256": "f607e85a40f3ca7f8a61f4eedf69628f9bab575cb5f7d1c913418cfa091480ed"
+    },
+    {
+      "path": "results/inventory_diagnostics/method_path_seed_metrics.csv",
+      "bytes": 19535,
+      "sha256": "a80a4d92f9a8b575e16a7e0f1fcc7c757a6ac8a272c2f50da7fade4894bf2fd7"
+    },
+    {
+      "path": "results/inventory_diagnostics/paired_path_seed_decomposition.csv",
+      "bytes": 24904,
+      "sha256": "f0387a7127592bf28383c646c58ea1d1cc062cd88ad168f19ace3c6eb313d268"
+    },
+    {
+      "path": "results/inventory_diagnostics/product_mean_and_range.csv",
+      "bytes": 7186,
+      "sha256": "c79de4b552d4fd026e9fb19479c68f08b48b8b1a0b0a56bbd5bc384e6dfbc0d1"
+    },
+    {
+      "path": "results/inventory_diagnostics/product_path_seed_metrics.csv",
+      "bytes": 67738,
+      "sha256": "d9bef706b0519849e23eb7c11b4fb6c42b65dea32a40f19c64010eb339215e92"
+    },
+    {
+      "path": "results/operating_conditions/all_policy_means.csv",
+      "bytes": 60475,
+      "sha256": "ce047984d2a9131c6747bf00056cb0b617d3801649c92e78ec7bafdda46bbd61"
+    },
+    {
+      "path": "results/operating_conditions/paired_intervals.csv",
+      "bytes": 85719,
+      "sha256": "79558017e4b8bace27700fd9da3a540af0409415b235be99821f2fc45b355b6f"
+    },
+    {
+      "path": "results/operating_conditions/seed_level_comparisons.csv",
+      "bytes": 117954,
+      "sha256": "b2c0dad738ac333f8eeb0fe3f68d904871b76dc343629ba2e94b227dfb591015"
+    },
+    {
+      "path": "results/operating_conditions/total_table.csv",
+      "bytes": 5959,
+      "sha256": "4b9883f142008180db76c8d648b78c7d27555bfb47fa6a8c09947dd4cd1c5189"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 10469,
+      "sha256": "e302e1cc353f4b477a315ca77ca406e203c698610734525152e0dd55f66d12f4"
+    },
+    {
+      "path": "verify_release.py",
+      "bytes": 3211,
+      "sha256": "1400d43f8f7a83f633901f262cff7b206a73cc2a0b67b2703049af42b3a43d72"
+    }
+  ]
+}
